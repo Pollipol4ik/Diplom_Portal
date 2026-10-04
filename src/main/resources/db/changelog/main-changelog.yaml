@@ -1,0 +1,144 @@
+databaseChangeLog:
+  - include:
+      file: './2023/11/19-01-create-schemas.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2023/12/03-01-changelog-scheduler.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2023/12/11-03-create-moderator-subject.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2023/12/17-03-create-project-members.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2023/12/15-01-changelog.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2023/12/30-03-drop-topic-type.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2023/12/31-03-add-history.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2024/01/01-01-create-course-tables.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2024/01/02-01-course-moderators-and-grading.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2024/01/03-01-grading-criteria.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2024/01/04-01-course-school-many-to-many.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2024/01/05-01-criteria-per-lesson.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/16-01-lesson-deadline-review-history.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/27-01-idea-bank-and-lagging.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/27-02-course-groups-and-hearings.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/27-03-drop-old-project-tables.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/29-01-hearing-open-conference-stage.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/29-02-submission-review-entry-kind.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/30-01-drop-hearing-review-unique.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/04/30-02-hearing-review-version-and-idea-bank-global.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/01-01-lagging-default-true.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/03-01-change-lagging-default-to-false.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/04-01-course-for-lagging-students.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/04-02-account-created-at.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/04-03-seed-it-courses.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/04-04-conference-defense-criteria.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/04-04-conference-defense-criteria_2.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/05-01-idea-bank-course-id.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/05-02-course-is-introduction.sql'
+      relativeToChangelogFile: true
+  - include:
+      file: '././2026/05/05-03-hearing-review-moderator-on-delete-set-null.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-01-seed-study-materials.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-02-seed-idea-bank.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-03-seed-news-publications.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-04-seed-intro-and-lagging-courses.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-05-create-student-course-enrollment.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-06-seed-intro-dev-submissions.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-07-seed-intro-dev-mixed-submissions.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-08-seed-networking-submissions.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-09-seed-lesson-criteria.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-12-seed-submission-review-history.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/07-01-seed-criteria-grades-reviews.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-10-seed-networking-final-and-conference.sql'
+      relativeToChangelogFile: true
+
+  - include:
+      file: '././2026/05/06-13-seed-networking-conference-defense.sql'
+      relativeToChangelogFile: true

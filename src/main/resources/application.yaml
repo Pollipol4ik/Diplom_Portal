@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    default: dev
+datasource:
+  url: 'jdbc:postgresql://localhost:35100/portal'
+  username: 'user'
+  password: 'password'
+jpa:
+  dialect: 'org.hibernate.dialect.PostgreSQLDialect'
+liquibase:
+  change-log: classpath:/db/changelog/main-changelog.yaml
+swagger-setup:
+  swagger-path: /moi-swagger.html
+file:
+  max-size: 5MB
+quartz:
+  driver: org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+jwt-token:
+  secret: //MY_TOKEN
+  issuer: polina
+storage:
+  url: http://localhost:9002
+  port: 9002
+  accessKey: user
+  secretKey: password
+  secure: false
+  bucket: minio-storage
+  image-size: 10485760 #10 Mb
+front-url: http://localhost:3000
+admin-data:
+  email: admin@admin.ru
+  nickname: admin
+  password: admin
+
+telegram:
+  bot:
+    telegram-token: //MY_TOKEN
